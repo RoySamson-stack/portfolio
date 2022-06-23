@@ -3013,6 +3013,125 @@ html.no-csstransitions .hero-content {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+.hero-image {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  display: block;
+  left:2%;
+  right: 5%;
+  margin-bottom: 100px;
+}
+
+.cube {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  height: 80px;
+  transform: rotate(-25deg) skew(25deg);
+}
+
+.cube:before {
+  position: absolute;
+  content: "";
+  width: 21px;
+  height: 100%;
+  transform: skewY(-45deg);
+  left: -15px;
+  bottom: -10px;
+}
+
+.cube:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 21px;
+  transform: skewX(-45deg);
+  left: -10px;
+  bottom: -20px;
+}
+#html {
+  bottom: 80px;
+  background-image: url("../images/languages/html-square.png");
+  background-size: cover;
+  background-color: rgb(165, 96, 231);
+  box-shadow: -60px 60px 20px rgba(3, 1, 1, 0.15);
+}
+
+#html:before {
+  background-color: rgb(189, 142, 233);
+
+}
+
+#html:after {
+  background-color: rgb(204, 189, 218);
+}
+
+#css {
+  left: 450px;
+  bottom: 80px;
+  background-image: url("../images/languages/css-square.png");
+  background-size: cover;
+  background-color: rgb(231, 96, 202);
+  box-shadow: -100px 100px 20px rgba(26, 25, 25, 0.15);
+}
+
+#css:before {
+  background-color: rgb(235, 164, 235);
+
+}
+
+#css:after {
+  background-color: rgb(183, 143, 187);
+}
+#python{
+  left:900px;
+  bottom: 80px;
+  background-size: cover;
+  background-image:url("../images/languages/python-square.jpeg");
+  box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
+}
+#python:before{
+  background-color: rgb(146, 146, 228);
+}#python:after{
+  background-color:rgb(72, 123, 235)
+}
+#javascript {
+  left: 650px;
+  bottom: 80px;
+  background-image: url("../images/languages/javascript-square.png");
+  background-size: cover;
+  background-color: rgb(119, 212, 200);
+  box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
+}
+
+#javascript:before {
+  background-color: rgb(154, 210, 224);
+
+}
+
+#javascript:after {
+  background-color: rgb(188, 236, 238);
+}
+
+#react {
+  left: 250px;
+  bottom: 80px;
+  background-image: url("../images/languages/react-square.png");
+  background-size: cover;
+  background-color: rgb(119, 153, 224);
+  box-shadow: -80px 80px 20px rgb(50 50 50 / 15%);
+}
+
+#react:before {
+  background-color: rgb(154, 203, 236);
+
+}
+
+#react:after {
+  background-color: rgb(188, 211, 229);
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
