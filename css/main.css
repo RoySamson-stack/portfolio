@@ -2000,7 +2000,10 @@ input::-moz-focus-inner {
 
 }
 
-
+.project-img{
+width: 200px;
+height: 200px;
+}
 
 /* ===================================================================
  * # hero
@@ -2909,6 +2912,8 @@ html.no-csstransitions .hero-content {
 
 .folio-item__thumb img {
   vertical-align: bottom;
+  height: 35ch;
+  width: 53ch;
 }
 
 /* portfolio info
