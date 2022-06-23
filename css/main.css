@@ -3021,6 +3021,7 @@ html.no-csstransitions .hero-content {
   left:2%;
   right: 5%;
   margin-bottom: 12px;
+  display: none;
 }
 
 .cube {
