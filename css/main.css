@@ -2172,6 +2172,14 @@ input::-moz-focus-inner {
   background-color: #f9861a;
 }
 
+#hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)), url("../images/ESG_0050.JPG");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: calc(50vw - 20vh);
+}
 /* -------------------------------------------------------------------
  * ## animate intro content
  * ------------------------------------------------------------------- */
