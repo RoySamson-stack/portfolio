@@ -2183,9 +2183,7 @@ height: 200px;
   background-size: 100% auto;
   height: calc(50vw - 20vh);
 }
-/* -------------------------------------------------------------------
- * ## animate intro content
- * ------------------------------------------------------------------- */
+
 html.ss-preload .hero-content {
   opacity: 0;
 }
@@ -2204,12 +2202,7 @@ html.ss-loaded .hero-content {
 html.no-csstransitions .hero-content {
   opacity: 1;
 }
-
-/* ------------------------------------------------------------------- 
- * ## animations
- * ------------------------------------------------------------------- */
-
-/* fade in */
+/
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
